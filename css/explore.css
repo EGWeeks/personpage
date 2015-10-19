@@ -51,12 +51,25 @@ a:active {
 	color: #fff;
 }
 
+/*************
+  kilo button
+*************/
+
+.kilo {
+	width: 250px;
+	height: 450px;
+	text-align: center;
+	position: relative;
+	top: 200px;
+	left: 350px;
+}
+
 /**************
 	  Map
 **************/
 .map {
 	position: absolute;
-	top: 0;
+	top: 0px;
 	right: 0px;
 	padding: 13px;
 
