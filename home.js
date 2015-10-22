@@ -2,8 +2,8 @@
 //Solution: Create underlay image 
 
 
-$(window).load(function){
-	var allimages = $(".imagegallery");
-}
+//$(window).load(function){
+//	var allimages = $(".imagegallery");
+//}
 
 	
