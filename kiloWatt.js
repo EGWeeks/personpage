@@ -2,7 +2,7 @@ function userInput() {
 	var userValue = document.getElementById('kwh').value
 	console.log(document.getElementById('kwh'));
 	electric(userValue);
-}
+};
 
 function electric(kwhUsed){
 	// fixed charge per month
@@ -18,12 +18,12 @@ function electric(kwhUsed){
 	var roundedCost = Math.round(billCost*100)/100;
 
 	document.write("$"+ roundedCost);
-}
+};
 
 function timeOfYear() {
 	var currentDate = new Date()
 	return currentDate.getMonth();
-}
+};
 
 function costForTimeOfYear(){
 
@@ -40,7 +40,7 @@ function costForTimeOfYear(){
 	}
 
 	return returnObject;
-}
+};
 
 function kwhCal(kwhUsed, timeOfYearCosts) {
 
@@ -57,4 +57,4 @@ function kwhCal(kwhUsed, timeOfYearCosts) {
 			billCost = kwhUsed * timeOfYearCosts.firstFiveCost;
 		}
 		return billCost;
-	}
+	};
