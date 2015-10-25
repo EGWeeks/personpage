@@ -5,8 +5,8 @@ $(function(){
 
 	//configuration
 	var width = 1024;
-	var animationSpeed = 1000;
-	var pause = 3000;
+	var animationSpeed = 2000;
+	var pause = 5000;
 	var currentImage = 1;
 
 	//cache DOM

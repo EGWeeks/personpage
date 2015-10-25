@@ -12,7 +12,6 @@ function electric(kwhUsed){
 	var timeOfYearCosts = costForTimeOfYear();
 	var billCost = kwhCal(kwhUsed, timeOfYearCosts)
 
-
 	billCost += fixedChargePerMonth;
 	
 	var roundedCost = Math.round(billCost*100)/100;
