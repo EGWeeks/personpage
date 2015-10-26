@@ -58,19 +58,24 @@ a:active {
 	width: 100%;
 	position:relative;
 	top: 100px;
+	margin-left: 4px;
 }
 
 .left, .kilo, .map {
-	width: 30%;
+	width: 33%;
 	height: 400px;
 	float: left;
-	margin: 10px;
 	min-width: 200px;
 }
 
 /*************
-    Left
+  goals & gif
 *************/
+
+p img {
+	width: 99%;
+
+}
 
 .left {
 	border: 2px solid black;
@@ -89,10 +94,6 @@ a:active {
 /**************
 	  Map
 **************/
-.map {
-	
-	
-}
 
 iframe {
 	border: none;

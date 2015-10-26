@@ -1,6 +1,5 @@
 function userInput() {
 	var userValue = document.getElementById('kwh').value
-	console.log(document.getElementById('kwh'));
 	electric(userValue);
 };
 
@@ -16,7 +15,13 @@ function electric(kwhUsed){
 	
 	var roundedCost = Math.round(billCost*100)/100;
 
+	var getter = document.getElementsByClassName("kilo");
+	
+	var lastChild = (getter).lastElementChild;
+	console.log(lastChild);
+
 	document.write("$"+ roundedCost);
+
 };
 
 function timeOfYear() {
