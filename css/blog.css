@@ -49,6 +49,25 @@ a:active {
 }
 
 /**************
+ section blog
+ *************/
+
+ section {
+ 	margin-top: 5em;
+ 	margin-left: 10em;
+ 	padding: 2em;
+ 	max-width: 50em;
+ 	border-top: 2px solid;
+ 	border-bottom: 2px solid;
+ }
+
+ section h3 {
+ 	margin-bottom: 1em;
+ }
+
+
+
+/**************
 	Footer
 **************/
 
