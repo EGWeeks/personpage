@@ -61,9 +61,12 @@ a:active {
  	border-bottom: .15em solid;
  }
 
- section h3 {
+ section h4 {
+ 	margin-left: 1em;
  	margin-bottom: 0.75em;
  }
+
+
 
 
 
@@ -76,7 +79,7 @@ footer {
 	background-color: rgba(256,256,256, 0.6);
 	margin: 5px;
 	padding: 10px 8px 5px 8px;
-	position: absolute;
+	position: fixed;
 	bottom: 5px;
 	width: 96.5%;
 }
