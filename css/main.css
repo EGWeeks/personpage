@@ -4,6 +4,17 @@ body {
 	background-color: rgba(1, 1, 1, 0.5);
 }
 
+/* icons */
+
+i {
+	color: white;
+}
+
+i:hover {
+	color: blue;
+}
+
+/* Nav */
 
 .navContainer {
 	background-color: #1cd046;
@@ -27,8 +38,9 @@ body {
 }
 
 /* Projects */
+
 .projects {
-	background: black;
+	color: white;
 	height: 92vh;
 }
 
@@ -37,14 +49,52 @@ body {
 	text-align: center;
 }
 
+.projectDesc {
+	padding-left: 1.5rem;
+}
+
+.projectLinks{
+	display:inline;
+	color: white;
+}
 /* Making / in the work column */
 
-.making {
+.works {
 	background: blue;
 	height: 92vh;
 }
 
-.makingHeader {
+.worksHeader {
 	color: white;
 	text-align: center;
 }
+
+.worksDesc {
+	padding-left: 1.5rem;
+}
+
+/* Technology list */
+
+.techHeader {
+	display: inline;
+	padding-left: 1.5rem;
+}
+
+.tech {
+	padding-left: 1rem;
+	display: inline-block;
+	list-style-type: none;
+}
+
+.tech li {
+	display: inline;
+}
+
+.tech li a {
+	color: white;
+}
+
+.tech li a:hover {
+	color: blue;
+}
+
