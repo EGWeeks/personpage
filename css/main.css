@@ -14,6 +14,36 @@ body {
 	font-size: 2.25rem;
 }
 
+
+/* Selfie */
+
+.bigHead {
+	padding-top: 0.75rem;
+}
+
 .selfie {
-	height: 80vh;
+	height: 92vh;
+}
+
+/* Projects */
+.projects {
+	background: black;
+	height: 92vh;
+}
+
+.projectHeader {
+	color: white;
+	text-align: center;
+}
+
+/* Making / in the work column */
+
+.making {
+	background: blue;
+	height: 92vh;
+}
+
+.makingHeader {
+	color: white;
+	text-align: center;
 }
