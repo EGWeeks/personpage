@@ -23,6 +23,7 @@ body {
 
 .selfie {
 	height: 92vh;
+	padding-bottom: 0.75rem;
 }
 
 /* Projects */
