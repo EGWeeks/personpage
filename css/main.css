@@ -1,102 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Monda);
 
-* {
-	margin: 0;
-	padding: 0;
-	font-family: 'Monda', sans-serif;
-}
 body {
-	background: url("../img/cpass.jpg");
-	background-size: 100%;
-}
-
-/************
-  Navigation
-************/
-
-
-#nav ul {
-	list-style: none;
-	padding: 5px 10px;
-	background-color: rgba(256,256,256, 0.5);
-}
-
-#nav {
-
-	font-size: 110%;
-	height: 60px;
-	padding: 10px 8px 5px 8px;
-	text-align: left;
-}
-
-/***************
-	Style links
-***************/
-a {
-	text-decoration: none;
-} 
-
-a:link {
-	color:#bdbdbd;
-}
-
-a:visited {
-	color: #4b4b4b;
-}
-
-a:hover {
-	color: #39f;
-}
-
-a:active {
-	color: #fff;
-}
-
-/************
-	image gallery
-************/
-
-.image img {
-	width: 1024px;
-	height: 600px;
-}
-
-#imageGallery {
-	margin: 0 auto;
-	width: 1024px;
-	height: 600px;
-	overflow: hidden;
-}
- 
- #imageGallery .slide {
-	display: block;
-	width: 7000px;
-	height: 600px;
-	margin: 0;
-	padding: 0;
-} 
-
-#imageGallery .image {
-	float: left;
-	list-style-type: none;
-	width: 1024px;
-	height: 600px;
-}
-
-/**************
-	Footer
-**************/
-
-footer {
-	background-color: rgba(256,256,256, 0.6);
-	margin: 5px;
-	padding: 10px 8px 5px 8px;
-	position: absolute;
-	bottom: 5px;
-	width: 96.5%;
-}
-footer p {
-	opacity: 0.5;
+	background-color: rgba(1, 1, 1, 0.5);
 }
 
 
+.navContainer {
+	background-color: #1cd046;
+	opacity: 0.70;
+}
+
+.nav li {
+	font-size: 2.25rem;
+}
+
+.selfie {
+	height: 80vh;
+}
