@@ -25,7 +25,6 @@ i:hover {
 	font-size: 2.25rem;
 }
 
-
 /* Selfie */
 
 .bigHead {
@@ -35,6 +34,7 @@ i:hover {
 .selfie {
 	height: 92vh;
 	padding-bottom: 0.75rem;
+	margin-left: -1rem;
 }
 
 /* Projects */
@@ -56,21 +56,6 @@ i:hover {
 .projectLinks{
 	display:inline;
 	color: white;
-}
-/* Making / in the work column */
-
-.works {
-	background: blue;
-	height: 92vh;
-}
-
-.worksHeader {
-	color: white;
-	text-align: center;
-}
-
-.worksDesc {
-	padding-left: 1.5rem;
 }
 
 /* Technology list */
@@ -96,5 +81,20 @@ i:hover {
 
 .tech li a:hover {
 	color: blue;
+}
+
+/* In The Works / in the work column */
+
+.works {
+	height: 92vh;
+}
+
+.worksHeader {
+	color: white;
+	text-align: center;
+}
+
+.worksDesc {
+	padding-left: 1.5rem;
 }
 
