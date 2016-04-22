@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Monda);
 
+@media (max-width: 768px) {
+	.selfie {
+		height: 50vh;
+	}
+}
+
 body {
 	background-color: rgba(1, 1, 1, 0.5);
 }
