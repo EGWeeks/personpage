@@ -8,6 +8,9 @@ $(document).ready(function(){
 			my: 'left center',
 			at: 'right center',
 			target: $('.selfie')
+		},
+		style: {
+			classes: 'qtip-green qtip-shadow'
 		}
 	});
 
