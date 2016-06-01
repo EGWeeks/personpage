@@ -1,5 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Monda);
 
+@media only screen and (min-width : 481px) {
+	.bigHead {
+		background: url('../img/polyselfie.svg') no-repeat;
+		height: 92vh;
+		padding-bottom: 0.75rem;
+		margin-left: -1.5rem;
+	}	
+}
+
+@media only screen and (max-width : 480px){
+	.bigHead {
+		height: 35vh;
+		background: url('../img/mountains.jpg') no-repeat;
+	}
+}
+
 body {
 	background-color: rgba(1, 1, 1, 0.5);
 }
@@ -23,7 +39,7 @@ i:hover {
 /* Nav */
 
 .navContainer {
-	background-color: #1cd046;
+	background-color: #0c0;
 	opacity: 0.70;
 }
 
@@ -38,9 +54,7 @@ i:hover {
 }
 
 .selfie {
-	height: 92vh;
-	padding-bottom: 0.75rem;
-	margin-left: -1.5rem;
+	
 }
 
 /* Projects */
@@ -110,6 +124,6 @@ i:hover {
 }
 
 .youtube-icon {
-	padding: 0px 5px;
+	padding: 0 5px;
 }
 
