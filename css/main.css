@@ -1,18 +1,29 @@
 @import url(https://fonts.googleapis.com/css?family=Monda);
 
-@media only screen and (min-width : 481px) {
+@media only screen and (min-width : 768px) {
 	.bigHead {
 		background: url('../img/polyselfie.svg') no-repeat;
 		height: 92vh;
-		padding-bottom: 0.75rem;
-		margin-left: -1.5rem;
+		/*padding-bottom: 0.75rem;*/
 	}	
 }
 
-@media only screen and (max-width : 480px){
+@media (min-width : 416px) and (max-width : 767px) {
 	.bigHead {
-		height: 35vh;
 		background: url('../img/mountains.jpg') no-repeat;
+		background-size: 100%;
+		border-bottom: 10px solid #0c0; 
+		height: 35vh;
+	}
+}
+
+@media only screen and (max-width : 415px){
+	.bigHead {
+		min-height: 35vh;
+		background: url('../img/Ghead.jpg') no-repeat center;
+		background-size: 100%;
+		border: 10px solid rgba(1, 1, 1, 0.5);
+		border-radius: 50%;
 	}
 }
 
@@ -45,16 +56,6 @@ i:hover {
 
 .nav li {
 	font-size: 2.25rem;
-}
-
-/* Selfie */
-
-.bigHead {
-	padding-top: 0.75rem;
-}
-
-.selfie {
-	
 }
 
 /* Projects */
@@ -103,7 +104,7 @@ i:hover {
 	color: blue;
 }
 
-/* In The Works / in the work column */
+/* In The Works */
 
 .works {
 	height: 50vh;
