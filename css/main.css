@@ -12,13 +12,13 @@
 	.bigHead {
 		background: url('../img/mountains.jpg') no-repeat;
 		background-size: 100%;
-		border-bottom: 10px solid #0c0; 
+		border-bottom: 10px solid #fff; 
 		height: 25vh;
 	}
 }
 
 body {
-	background-color: rgba(1, 1, 1, 0.5);
+	background-color: #808080;
 }
 
 /* All Links */
@@ -40,13 +40,13 @@ i:hover {
 /* Nav */
 
 .navContainer {
-	background-color: #0c0;
-	opacity: 0.70;
+	background-color: #fff;
 }
 
 .nav li {
 	font-size: 2.25rem;
 }
+
 
 /* Projects */
 
