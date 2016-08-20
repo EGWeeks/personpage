@@ -1,121 +1,25 @@
-@import url(https://fonts.googleapis.com/css?family=Monda);
-
-@media only screen and (min-width : 768px) {
-	.bigHead {
-		background: url('../img/polyselfie.svg') no-repeat;
-		height: 92vh;
-		/*padding-bottom: 0.75rem;*/
-	}	
-}
-
-@media only screen and (max-width : 767px) {
-	.bigHead {
-		background: url('../img/mountains.jpg') no-repeat;
-		background-size: 100%;
-		border-bottom: 10px solid #fff; 
-		height: 25vh;
-	}
-}
-
 body {
-	background-color: #808080;
+	background-color: #222930;
 }
 
-/* All Links */
+.navbar {
+	background-color: #222930;
+	border: none;
+	border-bottom: thick solid #4EB1BA;
 
-a:hover {
-	text-decoration: none;
 }
 
-/* icons */
+.navbar-default .navbar-brand {
+	font-size: 2.3rem;
+	color: #E9E9E9;
 
-i {
-	color: white;
 }
 
-i:hover {
-	color: blue;
-}
-
-/* Nav */
-
-.navContainer {
-	background-color: #fff;
-	width: 100%;
-}
-
-.nav li {
-	font-size: 2.25rem;
+.navbar-default .navbar-nav>li>a {
+	font-size: 2rem;
+	color: #E9E9E9;
 }
 
 
-/* Projects */
-
-.projects {
-	color: white;
-}
-
-.projectHeader {
-	color: white;
-	text-align: center;
-}
-
-.projectDesc {
-	padding-left: 1.5rem;
-}
-
-.projectLinks{
-	display:inline;
-	color: white;
-}
-
-/* Technology list */
-
-.techHeader {
-	color: white;
-	display: inline;
-	padding-left: 1.5rem;
-}
-
-.tech {
-	padding-left: 1rem;
-	display: inline-block;
-	list-style-type: none;
-}
-
-.tech li {
-	display: inline;
-}
-
-.tech li a {
-	color: white;
-}
-
-.tech li a:hover {
-	color: blue;
-}
-
-/* In The Works */
-
-.works {
-	height: 50vh;
-}
-
-.worksHeader {
-	color: white;
-	text-align: center;
-}
-
-.worksDesc {
-	color: white;
-	padding-left: 1.5rem;
-}
-
-.email-link {
-	color: white;
-}
-
-.youtube-icon {
-	padding: 0 5px;
-}
-
+/*#4EB1BA*/
+/*#E9E9E9*/
