@@ -1,0 +1,23 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.5 587.89" width='50' height='300'>
+        <defs>
+            <style>
+                .cls-1 {
+                    fill: #fff;
+                    stroke-width: 12px;
+                }
+                .cls-1,
+                .cls-2 {
+                    stroke: #fff;
+                    stroke-miterlimit: 10;
+                }
+                .cls-2 {
+                    fill: none;
+                    stroke-width: 16px;
+                }
+            </style>
+        </defs>
+        <title>timeline</title>
+        <circle class="cls-1" cx="29.25" cy="99.75" r="23.25" />
+        <line class="cls-2" x1="29.25" y1="123" x2="29.25" y2="587.89" />
+        <line class="cls-2" x1="29.25" y1="76.5" x2="29.25" />
+    </svg>

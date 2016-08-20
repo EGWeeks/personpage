@@ -2,11 +2,17 @@ body {
 	background-color: #222930;
 }
 
+
+
+/**************
+		Navbar
+**************/
+
 .navbar {
 	background-color: #222930;
 	border: none;
 	border-bottom: thick solid #4EB1BA;
-
+	margin-bottom: 0;
 }
 
 .navbar-default .navbar-brand {
@@ -20,6 +26,34 @@ body {
 	color: #E9E9E9;
 }
 
+/**************
+		Footer
+**************/
+.footer {
+	color: #E9E9E9;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem;
+	border-top: medium solid #4EB1BA;
+}
 
-/*#4EB1BA*/
-/*#E9E9E9*/
+.footer-links {
+	list-style-type: none;
+	margin-bottom: 0;
+}
+
+.footer-links li {
+		padding: 0 1rem;
+		display: inline;
+		font-size: 1.5rem;
+}
+
+.footer-links li a {
+	color: #E9E9E9;
+}
+
+.footer-links li a:hover {
+	text-decoration: none;
+	color: #333;
+}

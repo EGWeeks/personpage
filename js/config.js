@@ -4,10 +4,8 @@ var portConfig = angular.module('portConfig',['ngRoute', 'angular-loading-bar'])
 
 portConfig.config(['$httpProvider', '$routeProvider', 'cfpLoadingBarProvider', function($httpProvider, $routeProvider, cfpLoadingBarProvider) {
 
-  cfpLoadingBarProvider.includeSpinner = false;
+  cfpLoadingBarProvider.includeSpinner = true;
   cfpLoadingBarProvider.includeBar = true;
-
-	$httpProvider.interceptors.push('authInterceptor');
 
 	$routeProvider
 
