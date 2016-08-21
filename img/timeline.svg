@@ -18,6 +18,7 @@
         </defs>
         <title>timeline</title>
         <circle class="cls-1" cx="29.25" cy="99.75" r="23.25" />
+        <circle class="cls-1" cx="29.25" cy="250.75" r="23.25" />
         <line class="cls-2" x1="29.25" y1="123" x2="29.25" y2="587.89" />
         <line class="cls-2" x1="29.25" y1="76.5" x2="29.25" />
     </svg>

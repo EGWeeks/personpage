@@ -2,7 +2,11 @@ body {
 	background-color: #222930;
 }
 
-
+@media all {
+	.container {
+		max-width: 970px;
+	}
+}
 
 /**************
 		Navbar
@@ -27,11 +31,19 @@ body {
 }
 
 /**************
+		Columns
+**************/
+
+.col-md-5, .col-sm-5 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/**************
 		Footer
 **************/
 .footer {
 	color: #E9E9E9;
-	position: absolute;
 	bottom: 0;
 	width: 100%;
 	height: 2.5rem;
@@ -44,9 +56,9 @@ body {
 }
 
 .footer-links li {
-		padding: 0 1rem;
-		display: inline;
-		font-size: 1.5rem;
+	padding: 0 1rem;
+	display: inline;
+	font-size: 1.5rem;
 }
 
 .footer-links li a {
