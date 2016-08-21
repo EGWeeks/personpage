@@ -1,0 +1,31 @@
+
+
+/**************
+ Columns height
+**************/
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/**************
+		Hero Row
+**************/
+.terminal {
+	background-color: black;
+	margin: 1rem 0;
+}
+
+#poly-img {
+	margin: 1rem 0;
+	max-width: 175px;
+}
