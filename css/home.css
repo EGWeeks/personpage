@@ -1,4 +1,9 @@
-
+@media (min-width: 750px) {
+	.hero-text {
+		position: absolute;
+		top: 10rem;
+	}
+}
 
 /**************
  Columns height
@@ -21,9 +26,13 @@
 /**************
 		Hero Row
 **************/
-.hero-terminal {
-	color: white;
+
+.hero-container {
 	margin: 1rem 0;
+}
+
+.hero-text {
+	color: white;
 }
 
 #poly-img {
@@ -31,21 +40,18 @@
 	max-width: 175px;
 }
 
-.term-line {
+.hero-line {
 	margin-top: 0;
 	margin-bottom: 0;	
 }
 
-#cursor {
-	vertical-align: middle;
+
+/**************
+		Tri info
+**************/
+
+.full-width-container {
+	background-color: #4EB1BA;
 }
 
-.cursor-cls {
-	stroke: #fff;
-	stroke-miterlimit: 10;
-	fill: none;
-}
 
-.cursor-cls-fill {
-	fill: #fff;
-}

@@ -9,6 +9,12 @@
 	}
 }
 
+@media (min-width: 750px) {
+	h1 {
+		line-height: 5rem;
+	}
+}
+
 body, .navbar {
 	background: #222930 url(../img/texture.png);
 }
