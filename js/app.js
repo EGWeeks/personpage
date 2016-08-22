@@ -1,1 +1,1 @@
-angular.module('portfolio',['portConfig', 'navDir', 'footDir', 'homeCtrl']);
+angular.module('portfolio',['portConfig', 'navDir', 'footDir', 'typerDir', 'homeCtrl']);

@@ -7,10 +7,8 @@ angular.module('homeCtrl', [])
 
 	  var vm = this;
 
-	  vm.title = "Hi, I'm Ethan";
-
 	  // Blinking cursor
-	  (function() {
+	  var blinkingCursor = (function() {
 	  	vm.show = true;
 	  	$interval(function(){ 
 		  	if(vm.show === true){
