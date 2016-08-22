@@ -10,6 +10,7 @@
   display: flex;
   flex-wrap: wrap;
 }
+
 .row > [class*='col-'] {
   display: flex;
   flex-direction: column;
@@ -20,12 +21,31 @@
 /**************
 		Hero Row
 **************/
-.terminal {
-	background-color: black;
+.hero-terminal {
+	color: white;
 	margin: 1rem 0;
 }
 
 #poly-img {
 	margin: 1rem 0;
 	max-width: 175px;
+}
+
+.term-line {
+	margin-top: 0;
+	margin-bottom: 0;	
+}
+
+#cursor {
+	vertical-align: middle;
+}
+
+.cursor-cls {
+	stroke: #fff;
+	stroke-miterlimit: 10;
+	fill: none;
+}
+
+.cursor-cls-fill {
+	fill: #fff;
 }

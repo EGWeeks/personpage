@@ -1,23 +1,14 @@
 <div class='row'>
+	<div class='hidden-xs col-sm-1 col-md-1'></div>
 	<div class='poly-columns hidden-xs col-sm-3 col-md-3'>
 		<img id='poly-img' src='img/polyselfie.svg' alt='polygon selfie' />
 	</div>
-	<div contentEditable='true'class='terminal col-xs-12 col-sm-9 col-md-9'>
-		<h4>Last login: {{ HC.getDate() | date:'EEE MMM dd h:mm:ss' }} on ttys001</h4>
-		<h4>Ethans-portfolio:~ User$ <span id='cursor'>
-		<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width='8' height='18' viewBox="0 0 4 8.33">
-	    <defs>
-	        <style>
-	            .cls-1 {
-	                fill: #fff;
-	                stroke: #fff;
-	                stroke-miterlimit: 10;
-	            }
-	        </style>
-	    </defs>
-	    <title>cursor</title>
-	    <rect class="cls-1" x="0.5" y="0.5" width="3" height="7.33" />
+	<div class='hero-terminal col-xs-12 col-sm-8 col-md-8'>
+		<h2 class='term-line'>{{ HC.title }}<span id='cursor'>
+		<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width='16' height='40' viewBox="0 0 4 8.33">
+	    <rect ng-class="{'cursor-cls-fill': HC.show }" class="cursor-cls" x="0.5" y="0.5" width="3" height="8.33" />
 		</svg>
-		</span></h4>
+		</span></h2>
+		<h3></h3>
 	</div>
 </div>

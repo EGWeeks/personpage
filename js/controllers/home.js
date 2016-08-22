@@ -1,17 +1,24 @@
 'use strict';
 
 angular.module('homeCtrl', [])
-	.controller('homeCtrl', ['$scope', HomeCtrl]);
+	.controller('homeCtrl', ['$scope', '$interval', HomeCtrl]);
 
-	function HomeCtrl($scope) {
+	function HomeCtrl($scope, $interval) {
 
 	  var vm = this;
 
-	  vm.getDate = getDate;
+	  vm.title = "Hi, I'm Ethan";
 
-	  function getDate() {
-	  	var current = new Date();
+	  // Blinking cursor
+	  (function() {
+	  	vm.show = true;
+	  	$interval(function(){ 
+		  	if(vm.show === true){
+		  		vm.show = false;
+		  	} else if (vm.show === false){
+		  		vm.show = true;
+		  	}
+	  	}, 700, 4);
+	  })();
 
-	  	return current;
-	  }
 	}

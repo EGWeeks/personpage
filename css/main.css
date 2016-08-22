@@ -3,22 +3,20 @@
 	Applies to all partials
 ***/
 
-body {
-	background-color: #222930;
-}
-
 @media all {
 	.container {
 		max-width: 980px;
 	}
 }
 
+body, .navbar {
+	background: #222930 url(../img/texture.png);
+}
 /**************
 		Navbar
 **************/
 
 .navbar {
-	background-color: #222930;
 	border: none;
 	border-bottom: thick solid #4EB1BA;
 	margin-bottom: 0;
