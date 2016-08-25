@@ -5,6 +5,7 @@
 	!!!!If text and changed margins in media queries will need to be changed 
 	All positioning is relative and size change of anthing on the page will 
 	throw off pixel based margins!!!
+
 ***/
 
 @media (min-width: 992px) {

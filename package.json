@@ -1,0 +1,27 @@
+{
+  "name": "personpage",
+  "version": "2.0.0",
+  "description": "Ethan's portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EGWeeks/personpage.git"
+  },
+  "author": "Weeks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EGWeeks/personpage/issues"
+  },
+  "homepage": "https://github.com/EGWeeks/personpage#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-loading-bar": "^0.9.0",
+    "angular-route": "^1.5.8",
+    "angular-typer": "^0.5.5",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.0"
+  }
+}

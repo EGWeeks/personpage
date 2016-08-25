@@ -1,0 +1,34 @@
+<svg id="gitline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.57 325.43" width='58' >
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #4eb1ba;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke-width: 16px;
+      }
+
+      .cls-2 {
+        fill: #4eb1ba;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 10px;
+      }
+    </style>
+  </defs>
+  <title>gitline_bottom</title>
+  <line class="cls-1" x1="26.79" y1="51.59" x2="26.79" y2="95.41"/>
+  <line class="cls-1" x1="26.79" y1="113.29" x2="26.79" y2="325.43"/>
+  <line class="cls-1" x1="26.79" y1="32.08" x2="26.79"/>
+  <circle class="cls-2" cx="26.79" cy="41.83" r="8.94"/>
+  <circle class="cls-2" cx="26.79" cy="104.35" r="8.94"/>
+  <polygon class="cls-3" points="10 41.83 14.19 39.41 14.19 44.26 10 41.83"/>
+  <polygon class="cls-3" points="43.56 104.35 39.37 106.76 39.37 101.93 43.56 104.35"/>
+</svg>

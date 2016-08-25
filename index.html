@@ -1,109 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="portfolio" lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/png" href="img/favicon.png" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./node_modules/angular-loading-bar/build/loading-bar.min.css" type="text/css" media="all" />
 	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/home.css" />
+	<link rel="stylesheet" href="css/project.css" />
+	<link rel="stylesheet" href="css/typer.css" />
+
 	<title>Ethan's Portfolio</title>
 </head>
 <body>
-	<div class='container-fluid'>
-		<!-- CONTENT -->
-		<div class='row bigRow'>
-			<div class='col-xs-12 col-sm-4 col-md-3 col-lg-2 bigHead'>
-				<!-- media queries display background image here -->
-			</div>
-			<div class='col-xs-12 col-sm-8 col-md-9 col-lg-5 works'>
-				<h2 class='worksHeader'>{	 Latest Creation  }</h2>
-				<section>
-					<h3><a class='projectLinks' href='http://promotocrossapi.herokuapp.com/'>Node.js REST API - Motocross API</a><a href='https://github.com/EGWeeks/promotocrossapi'> <i class="fa fa-github" aria-hidden="true"></i></a></h3>
-					<p class='worksDesc' >Pro Motocross API is serving up the latest lap times from the Lucas Oil AMA Pro Motocross Series. The API was built for a particular purpose of building data visuals to analyze how riders lap times develop over a race. </p>
-					<h4 class='techHeader'>Tech:</h4>
-					<ul class='tech' >
-						<li> <a href='https://nodejs.org/en/'><img src='img/nodejs.svg' alt='Node JS logo' /> Node.JS,</a></li>
-						<li> <a href='https://www.mongodb.com/'><img src='img/mongodb.png' alt='Mongo logo' /> MongoDB,</a></li>
-						<li> <a href='https://mlab.com/'><img src='img/mlab.png' alt='mLab logo' /> mLab,</a></li>
-						<li> <a href='https://heroku.com'><img src='img/heroku.png' alt='Heroku logo' /> Heroku</a></li>
-					</ul>
-				</section>
-				<section>
-					<h3><a class='projectLinks' href='https://github.com/EGWeeks/AMAPDFtoJSONParser'>Parse PDF for MongoDB</a><a href='https://github.com/EGWeeks/AMAPDFtoJSONParser'> <i class="fa fa-github" aria-hidden="true"></i></a></h3>
-					<p class='worksDesc' >The data parsed from the PDFs is the data the Motocross API is serving.(linked above ^) The American Motorcyle Association manages this data and the only public access is through a downloadable PDF. I have utilized the power of NPM modules to download, parser, and write to my hosted MongoDB. </p>
-					<h4 class='techHeader'>Tech:</h4>
-					<ul class='tech' >
-						<li> <a href='https://www.npmjs.com/'><img src='img/npm.png' alt='NPM logo' /> Node Package Manager</a></li>
+	<port-navbar></port-navbar>
+		
+		<div ng-view></div>
+ 
+	<port-footer></port-footer>
+	  <!-- Bootstrap's js requires jQuery -->
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="./node_modules/angular/angular.js"></script>
+	<script src="./node_modules/angular-loading-bar/build/loading-bar.min.js"></script>
+	<script src="./node_modules/angular-route/angular-route.min.js"></script>
 
-					</ul>
-				</section>
-			</div>
-			<div class='col-xs-12 col-sm-12 col-md-12 col-lg-5 projects'>
-				<h2 class='projectHeader'>{	 Recent Projects  }</h2>
-				<section>
-					<h3><a class='projectLinks' href='https://weathermap.firebaseapp.com'>Weather Map - Weather App</a><a href='https://github.com/EGWeeks/WeatherMap'> <i class="fa fa-github" aria-hidden="true"></i></a></h3>
-					<p class='worksDesc' >Weather app built on google maps with a drag and drop feature to get precise current and forecasted weather conditions. All data is coming from Wundergrounds API and hourly data graphed using chart.js. This is an on going play around project and is by no means finished.</p>
-					<h4 class='techHeader'>Tech:</h4>
-					<ul class='tech' >
-						<li> <a href='https://jquery.com/'><img src='img/jquery.png' alt='jQuery logo' /> jQuery,</a></li>
-						<li> <a href='http://foundation.zurb.com/'><img src='img/yeti.svg' alt='foundation logo' /> Foundation,</a></li>
-						<li> <a href='http://www.chartjs.org/'><img src='img/chartjs.svg' alt='chart js logo' /> Chart.js</a></li>
-					</ul>
-				</section>
-				<section>
-					<h3><a href='https://www.backwoodscontact.xyz' class='projectLinks'>Backwoods Contact</a><a href='https://github.com/EGWeeks/tutorFront'> <i class="fa fa-github" aria-hidden="true"></i></a></h3>
-					<p class='projectDesc' >Backwoods was developed for my love of outdoor sports and desire to be active. It’s purpose is it get users that want to jump into a new outdoor sport in contact with someone that is experienced in that activity.</p>
-					<h4 class='techHeader'>Tech:</h4>
-					<ul class='tech' >
-						<li> <a href='https://angularjs.org/'><img src='img/angular.png' alt='angular logo' /> Angular,</a></li>
-						<li> <a href='https://developers.google.com/maps/'><img src='img/maps.png' alt='google maps marker logo' /> Google maps,</a></li>
-						<li><a href='http://www.postgresql.org/'><img src='img/postgres.png' alt='postgres elephant'/> PostrgreSQL,</a></li>
-						<li><a href='http://expressjs.com/'>Express JS</a></li>
+  <script src="./js/app.js"></script>
+  <script src="./js/config.js"></script>
+  <script src="./js/directives/navbar.js"></script>
+  <script src="./js/directives/footer.js"></script>
+  <script src="./js/directives/typer.js"></script>
+  <script src="./js/services/projects.js"></script>
+  <script src="./js/controllers/home.js"></script>
+  <script src="./js/controllers/projects.js"></script>
 
-					</ul>
-				</section>
-				<section>
-					<h3><a class='projectLinks' href='https://github.com/EGWeeks/tapGame'>Apco-A-Flop</a> <a href='https://github.com/EGWeeks/tapGame'> <i class="fa fa-github" aria-hidden="true"></i></a></h3>
-					<p class='projectDesc' >The app is based on a post-apocalyptic version of the popular Flappy Bird. It is a side scrolling game where you tap the screen to stay a flight and navigate through an apocalyptic world. </p>
-					<h4 class='techHeader'>Tech:</h4>
-					<ul class='tech' >
-						<li><a href='http://ionicframework.com'><img src='img/ionic.png' alt='ionic logo' /> Ionic, </a></li>
-						<li> <a href='http://phaser.io'><img src='img/phaser.png' alt='phaser logo' /> Phaser,</a></li>
-						<li> <a href='https://cordova.apache.org/'><img src='img/cordova.png' alt='cordova logo' /> Cordova,</a></li>
-						<li> <a href='https://angularjs.org/'><img src='img/angular.png' alt='angular logo' /> Angular</a></li>
-					</ul>
-				</section>
-			</div>
-		</div>
-		<!-- Navbar fixed bottom -->
-		<div class="navbar navbar-default navbar-fixed-bottom navContainer" role="navigation">
-		  <div class="container">
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand" href="index.html">Ethan Weeks</a>
-		    </div>
-		    <div class="navbar-collapse collapse">
-		  
-		      <!-- Right nav -->
-		      <ul class="nav navbar-nav navbar-right">
-					  <li><a href="mailto:EthanWeeks@ymail.com">Email</a></li>
-					  <li><a href="https://github.com/EGWeeks">Github</a></li>
-					  <li><a href="https://www.linkedin.com/in/ethanweeks">Linked in</a></li>
-		      </ul>
-		  
-		    </div><!--/.nav-collapse -->
-		  </div><!--/.container -->
-		</div>
-	</div> 
-	
-	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

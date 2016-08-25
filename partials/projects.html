@@ -1,0 +1,49 @@
+<div class='container'>
+  <div class='row'>
+    <div class='col-sm-5 col-md-5 left'>
+      <div class='row'>
+        <div class='col-xs-12 col-sm-12 col-md-12 project-left'>
+          <div class='project' ng-repeat="lProject in PC.leftProjects">
+            <div class="panel panel-primary">
+              <div class='panel-heading'>
+                <h2 class="panel-title"><a class='site-url' href='{{ lProject.url }}'>{{ lProject.title }}</a>
+                  <span class='pull-right'>
+                    <a href='{{ lProject.url }}'><i class='fa fa-globe' aria-hidden='true'></i></a> 
+                    <a href='{{ lProject.githubURL }}'><i class='fa fa-github' aria-hidden='true'></i></a>
+                  </span>
+                </h2>
+              </div>
+              <div class="panel-body">
+                {{ lProject.body }}
+              </div>
+               <div class="panel-footer">Tech: {{ lProject.tech }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='hidden-xs col-sm-2 col-md-2 text-center timeline'>
+      <img src='img/gitline_bottom.svg' alt='time line icon' />
+      <img src='img/gitline_bottom.svg' alt='time line icon' />
+    </div>
+    <div class='col-sm-5 col-md-5 right'>
+      <div class='row'>
+        <div class='col-xs-12 col-sm-12 col-md-12 project-right'>
+          <div class='project' ng-repeat="rProject in PC.rightProjects">
+            <div class="panel panel-primary">
+              <div class='panel-heading'>
+                <h2 class="panel-title">
+                <a class='site-url' href='{{ rProject.url }}'>{{ rProject.title }}</a><span class='pull-right'><a href='{{ rProject.url }}'><i class='fa fa-globe' aria-hidden='true'></i></a> 
+                <a href='{{ rProject.githubURL }}'><i class='fa fa-github' aria-hidden='true'></i></a><span></h2>
+              </div>
+              <div class="panel-body">
+                {{ rProject.body }}
+              </div>
+              <div class="panel-footer">Tech: {{rProject.tech }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+<div class='container'>
+	<div class='row'>
+		<div class='hidden-xs col-sm-1 col-md-1'></div>
+		<div class='poly-columns hidden-xs col-sm-2 col-md-2'>
+			<img id='poly-img' src='img/polyselfie.svg' alt='polygon selfie' />
+		</div>
+		<div class='hero-container col-xs-12 col-sm-9 col-md-9'>
+			<div class='hero-text'>
+				<h1 class='hero-line' typer-dir text="Hi, I'm Ethan." type-delay="100" initial-delay="1s" blink-cursor="false"></h1>
+				<h1 class='hero-line' typer-dir text="A software developer in Colorado." type-delay="100" initial-delay="3.5s" blink-cursor="true"></h1>
+				<!-- <h1 class='hero-line' typer-dir text="" type-delay="100" initial-delay="7.75s" blink-cursor="true"></h1> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class='full-width-container'>
+	<div class='container'>
+		<div class='quad-info row'>
+			<!-- Front End -->
+			<div class='col-xs-12 col-sm-6 col-md-3 text-center' ng-init='frontEnd = false' ng-click='frontEnd = !frontEnd' >
+				<h2 ng-hide='frontEnd' ><img class='stack-icons' src='img/front-end.svg' alt='front end icon' /></h2>
+				<h2 ng-show='frontEnd'><img class='stack-icons' src='img/front-end-text.svg' alt='front end text' /></h2>
+			</div>
+			<!-- Back End -->
+			<div class='col-xs-12 col-sm-6 col-md-3 text-center' ng-init='backEnd = false' ng-click='backEnd = !backEnd'>
+				<h2 ng-hide='backEnd' ><img class='stack-icons' src='img/back-end.svg' alt='back end icon' /></h2>
+				<h2 ng-show='backEnd'><img class='stack-icons' src='img/back-end-text.svg' alt='back end text icon' /></h2>
+			</div>
+			<!-- Database -->
+			<div class='col-xs-12 col-sm-6 col-md-3 text-center' ng-init='db = false' ng-click='db = !db'>
+				<h2 ng-hide='db' ><img src='img/db.svg' alt='database icon' /></h2>
+				<h2 ng-show='db' ><img src='img/db-text.svg' alt='database text icon' /></h2>
+			</div>
+			<!-- Tools -->
+			<div class='col-xs-12 col-sm-6 col-md-3 text-center' ng-init='tools = false' ng-click='tools = !tools'>
+				<h2 ng-hide='tools' ><img src='img/tools.svg' alt='tools icon' /></h2>
+				<h2 ng-show='tools' ><img src='img/tools-text.svg' alt='tools text icon' /></h2>
+			</div>
+		</div>
+	</div>
+</div>

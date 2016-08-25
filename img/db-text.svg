@@ -1,0 +1,24 @@
+<svg id="data-text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.08 97.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-2 {
+        font-size: 12px;
+        fill: #231f20;
+        font-family: Helvetica Neue;
+      }
+    </style>
+  </defs>
+  <title>db-text</title>
+  <circle class="cls-1" cx="48.54" cy="48.54" r="45.54"/>
+  <text class="cls-2" transform="translate(21.91 76.67)">MongoDB</text>
+  <text class="cls-2" transform="translate(16.08 41.67)">Postg<tspan x="31.33" y="0">r</tspan><tspan x="35.11" y="0">eSQL</tspan></text>
+  <text class="cls-2" transform="translate(11.08 59.67)">PHPMyAdmin</text>
+  <text class="cls-2" transform="translate(28.08 24)">MySQL</text>
+</svg>

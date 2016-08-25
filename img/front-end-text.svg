@@ -1,0 +1,25 @@
+<svg id="front-text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.08 97.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-2 {
+        font-size: 12px;
+        fill: #231f20;
+        font-family: Helvetica Neue;
+      }
+    </style>
+  </defs>
+  <title>front-end-text</title>
+  <circle class="cls-1" cx="48.54" cy="48.54" r="45.54"/>
+  <text class="cls-2" transform="translate(21.88 40.12)">AngularJS</text>
+  <text class="cls-2" transform="translate(30.21 24)">jQuery</text>
+  <text class="cls-2" transform="translate(23.54 68.33)">Bootstrap</text>
+  <text class="cls-2" transform="translate(34.88 83.67)">AJAX</text>
+  <text class="cls-2" transform="translate(12.88 54.79)">HTML &amp; CSS</text>
+</svg>
