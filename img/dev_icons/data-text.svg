@@ -1,0 +1,24 @@
+<svg id="data-text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.08 97.08">
+  <defs>
+    <style>
+      .data-cls-1 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .data-cls-2 {
+        font-size: 12px;
+        fill: #231f20;
+        font-family: Myriad Pro;
+      }
+    </style>
+  </defs>
+  <title>data-text</title>
+  <circle class="data-cls-1" cx="48.54" cy="48.54" r="45.54"/>
+  <text class="data-cls-2" transform="translate(24.08 76.67)">M<tspan x="9.72" y="0">ongoDB</tspan></text>
+  <text class="data-cls-2" transform="translate(20.41 41.67)">P<tspan x="6.08" y="0">os</tspan><tspan x="17.42" y="0">tg</tspan><tspan x="27.96" y="0">r</tspan><tspan x="31.76" y="0">eSQL</tspan></text>
+  <text class="data-cls-2" transform="translate(15.08 59.67)">PH<tspan x="14.21" y="0">P</tspan><tspan x="20.45" y="0">M</tspan><tspan x="30.18" y="0">y</tspan><tspan x="35.83" y="0">A</tspan><tspan x="43.03" y="0">dmin</tspan></text>
+  <text class="cls-2" transform="translate(31.74 24)">M<tspan x="9.73" y="0">ySQL</tspan></text>
+</svg>
