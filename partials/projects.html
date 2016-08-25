@@ -6,7 +6,7 @@
           <div class='project' ng-repeat="lProject in PC.leftProjects">
             <div class="panel panel-primary">
               <div class='panel-heading'>
-                <h3 class="panel-title"><a class='site-url' href='{{ lProject.url }}'>{{ lProject.title }}</a><span class='pull-right'><a href='{{ lProject.githubURL }}'><i class='fa fa-github' aria-hidden='true'></i></a></span></h3>
+                <h2 class="panel-title"><a class='site-url' href='{{ lProject.url }}'>{{ lProject.title }}</a><a class='pull-right' href='{{ lProject.githubURL }}'><i class='fa fa-github' aria-hidden='true'></i></a></h2>
               </div>
               <div class="panel-body">
                 {{ lProject.body }}
@@ -27,7 +27,7 @@
           <div class='project' ng-repeat="rProject in PC.rightProjects">
             <div class="panel panel-primary">
               <div class='panel-heading'>
-                <h3 class="panel-title"><a href='{{ rProject.url }}'>{{ rProject.title }}</a><span class='pull-right'><a href='{{ lProject.githubURL }}'><i class='fa fa-github' aria-hidden='true'></i></a></span></h3>
+                <h2 class="panel-title"><a href='{{ rProject.url }}'>{{ rProject.title }}</a><a class='pull-right' href='{{ lProject.githubURL }}'><i class='fa fa-github' aria-hidden='true'></i></a></h2>
               </div>
               <div class="panel-body">
                 {{ rProject.body }}
