@@ -3,13 +3,46 @@
 	Applies to only the project page
 ***/
 
+@media (min-width: 750px) {
+	.project-left {
+		margin-top: 30px;
+	}
 
-#project-card {
-	max-height: 295px;
+	.project-right {
+		margin-top: 108px;
+	}
+}
+
+
+/*************
+Project Panel
+*************/
+.panel-primary {
+	border-color: #4EB1BA;
+}
+
+.panel-primary>.panel-heading {
+	background-color: #4EB1BA;
+	border-color: #4EB1BA;
+}
+
+/*************
+	panel title
+*************/
+
+.panel-title {
 	width: 100%;
 }
 
-.top-left-card {
-	margin-top: 2.8rem;
+.site-url:hover {
+	color: black;
 }
 
+.fa-github {
+	color: white;
+	font-size: 20px;
+}
+
+.fa-github:hover {
+	color: black;
+}
