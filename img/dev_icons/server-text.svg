@@ -1,0 +1,24 @@
+<svg id="back-text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.08 97.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .back-end-cls-2 {
+        font-size: 12px;
+        fill: #231f20;
+        font-family: Myriad Pro;
+      }
+    </style>
+  </defs>
+  <title>server-text</title>
+  <circle class="cls-1" cx="48.54" cy="48.54" r="45.54"/>
+  <text class="back-end-cls-2" transform="translate(28.84 26.04)">Nod<tspan x="21.25" y="0">e</tspan><tspan x="27.12" y="0">.js</tspan></text>
+  <text class="back-end-cls-2" transform="translate(24.84 75.04)">Exp<tspan x="18.29" y="0">r</tspan><tspan x="22.09" y="0">es</tspan><tspan x="32.86" y="0">s</tspan><tspan x="37.48" y="0">.js</tspan></text>
+  <text class="back-end-cls-2" transform="translate(18.6 59.54)">JSON<tspan x="26.52" y="0"> </tspan><tspan x="28.57" y="0">T</tspan><tspan x="33.68" y="0">okens</tspan></text>
+  <text class="back-end-cls-2" transform="translate(24.84 42.37)">REST APIs</text>
+</svg>

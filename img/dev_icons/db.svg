@@ -1,0 +1,24 @@
+<svg ng-init="database = true" ng-click="database = !database" id="data-end" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.08 97.08">
+  <defs>
+    <style>.cls-1{fill:none;stroke:#231f20;stroke-miterlimit:10;stroke-width:6px;}
+    	.cls-2{fill:#231f20;}
+    .data-cls-2 {
+        font-size: 12px;
+        fill: #231f20;
+        font-family: Myriad Pro;
+      }</style>
+  </defs>
+  <title>server</title>
+  <circle class="cls-1" cx="48.54" cy="48.54" r="45.54"/>
+  <g ng-hide="database">
+  	<text class="data-cls-2" transform="translate(24.08 76.67)">M<tspan x="9.72" y="0">ongoDB</tspan></text>
+  	<text class="data-cls-2" transform="translate(20.41 41.67)">P<tspan x="6.08" y="0">os</tspan><tspan x="17.42" y="0">tg</tspan><tspan x="27.96" y="0">r</tspan><tspan x="31.76" y="0">eSQL</tspan></text>
+  	<text class="data-cls-2" transform="translate(15.08 59.67)">PH<tspan x="14.21" y="0">P</tspan><tspan x="20.45" y="0">M</tspan><tspan x="30.18" y="0">y</tspan><tspan x="35.83" y="0">A</tspan><tspan x="43.03" y="0">dmin</tspan></text>
+  	<text class="data-cls-2" transform="translate(31.74 24)">M<tspan x="9.73" y="0">ySQL</tspan></text>
+  </g>
+  <g ng-show="database">
+    <path class="cls-2" d="M429.09,54.48c-14,0-25.32,4.13-25.32,9.23v7.57c0,5.1,11.33,9.23,25.32,9.23s25.32-4.13,25.32-9.23V63.71C454.4,58.61,443.07,54.48,429.09,54.48Z" transform="translate(-380.67 -36.67)"/>
+    <path class="cls-2" d="M429.09,84.93c-13.35,0-24.35-3.77-25.32-8.55,0,0.23,0,12.51,0,12.51,0,5.1,11.33,9.23,25.32,9.23S454.4,94,454.4,88.89c0,0,0-12.28,0-12.51C453.42,81.16,442.44,84.93,429.09,84.93Z" transform="translate(-380.67 -36.67)"/>
+    <path class="cls-2" d="M454.38,94.2c-1,4.78-11.94,8.55-25.29,8.55S404.73,99,403.77,94.2v12.51c0,5.1,11.33,9.23,25.32,9.23s25.32-4.13,25.32-9.23Z" transform="translate(-380.67 -36.67)"/>
+  </g>
+</svg>

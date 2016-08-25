@@ -72,3 +72,29 @@
 	max-width: 215px;
 }
 
+/**************
+Tools Icons & Text
+**************/
+
+.tools-cls-1{
+	fill:none;
+	stroke:#231f20;
+	stroke-miterlimit:10;
+	stroke-width:6px;
+}
+
+.tools-cls-2{
+	fill:#231f20;
+}
+
+.tools-text-cls-1{
+	fill:none;
+	stroke:#231f20;
+	stroke-miterlimit:10;
+	stroke-width:6px;
+}
+.tools-text-cls-2{
+	font-size:12px;
+	fill:#fff;
+	font-family:Myriad Pro;
+}
