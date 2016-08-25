@@ -38,7 +38,7 @@ angular.module('projectsSrc', [])
 				},
 				{
 					title: 'Weather Map',
-					body: 'The parser was the first step of creating the motocross API because the organization that host the data only offers it in PDFs. Using NPM, ES6, and Promises it is downloading all the PDFs, parsing them to JSON format, and then pushing to my hosted MongoDB.',
+					body: 'Weather map',
 					tech: 'jQuery, Google Maps, Wunderground',
 					classes: 'arrow-left',
 					url: 'https://weathermap.firebaseapp.com',
