@@ -1,0 +1,29 @@
+<svg id="tools-text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.08 97.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-2 {
+        font-size: 12px;
+        fill: #231f20;
+        font-family: Helvetica Neue;
+      }
+
+      .cls-3 {
+        letter-spacing: -1px;
+      }
+    </style>
+  </defs>
+  <title>tools-text</title>
+  <circle class="cls-1" cx="48.54" cy="48.54" r="45.54"/>
+  <text class="cls-2" transform="translate(26.86 37.02)">VCS-Git</text>
+  <text class="cls-2" transform="translate(11.16 51.21)">Ch<tspan x="15.34" y="0">r</tspan><tspan x="19.12" y="0">ome </tspan><tspan class="cls-3" x="46.02" y="0">T</tspan><tspan x="51.58" y="0">ools</tspan></text>
+  <text class="cls-2" transform="translate(34.99 22.35)">A<tspan x="7.49" y="0">WS</tspan></text>
+  <text class="cls-2" transform="translate(24.57 66.21)">Mac-CLI</text>
+  <text class="cls-2" transform="translate(35.61 81.54)">Agile</text>
+  <text x="-493.43" y="-151.31"/></svg>
