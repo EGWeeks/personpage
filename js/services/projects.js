@@ -8,7 +8,7 @@ angular.module('projectsSrc', [])
 		this.leftProjects = function() {
 			return [
 				{
-					title: 'Pro Motocross Api',
+					title: 'Pro Motocross API',
 					body: 'Built following a RESTful design pattern Express.js is serving up the latest lap times from the Lucas oil pro motocross series. Storing all data in a MongoDB hosted on mLab for easy JSON returns.',
 					tech: 'Node.js, Heroku, MongoDB, mLab',
 					classes: 'arrow-right',
@@ -29,7 +29,7 @@ angular.module('projectsSrc', [])
 		this.rightProjects = function() {
 			return [
 				{
-					title: 'PDF Parser into MongoDB',
+					title: 'PDF parser into DB',
 					body: 'The parser was the first step of creating the motocross API because the organization that host the data only offers it in PDFs. Using NPM, ES6, and Promises it is downloading all the PDFs, parsing them to JSON format, and then pushing to my hosted MongoDB.',
 					tech: 'ES6, Node.js, NPM',
 					classes: 'arrow-left',

@@ -5,11 +5,11 @@
 
 @media (min-width: 750px) {
 	.project-left {
-		margin-top: 30px;
+		margin-top: 33px;
 	}
 
 	.project-right {
-		margin-top: 108px;
+		margin-top: 116px;
 	}
 }
 
@@ -39,11 +39,11 @@ Project Panel
 	color: black;
 }
 
-.fa-github {
+.fa-github, .fa-globe {
 	color: white;
 	font-size: 27px;
 }
 
-.fa-github:hover {
+.fa-github:hover, .fa-globe:hover {
 	color: black;
 }

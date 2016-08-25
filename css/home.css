@@ -1,7 +1,21 @@
-@media (min-width: 768px) {
+@media (min-width: 991px) {
 	.hero-text {
 		position: absolute;
-		top: 6rem;
+		top: 7rem;
+	}
+}
+
+/****
+	Only built bc of typer will drop down on
+	longer lines and will exceed 5 lines of text.
+	Making the text overlay the icons.
+	!!!If typer changes to only 3 short lines 
+	query can be removed!!
+***/
+@media (min-width: 768px) and (max-width: 990px) {
+	.hero-text {
+		position: absolute;
+		top: 0.2rem;
 	}
 }
 
@@ -47,11 +61,14 @@
 
 
 /**************
-		Tri info
+		Quad info
 **************/
 
 .full-width-container {
 	background-color: #4EB1BA;
 }
 
+.stack-icons {
+	max-width: 215px;
+}
 
