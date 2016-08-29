@@ -9,14 +9,14 @@ angular.module('projectsSrc', [])
 			return [
 				{
 					title: 'Pro Motocross API',
-					body: 'Built following a RESTful design pattern Express.js is serving up the latest lap times from the Lucas oil pro motocross series. Storing all data in a MongoDB hosted on mLab for easy JSON returns. The build inspiration came from watching the races every weekend and the announcers talking about how riders pace develop over the course of the race and I thought, "I need to graph that out". Come to find out there is no motocross API, so I filled the void.',
+					body: 'Built following a RESTful design pattern Express.js is serving up the latest lap times from the Lucas oil pro motocross series. Storing all data in a MongoDB hosted on mLab for easy JSON returns. The build inspiration came from watching the races every weekend and the announcers talking about how riders pace develop over the course of the race and I thought, "I need to graph that out". Come to find out there is no public motocross API, here is the first one.',
 					tech: 'Node.js, Heroku, MongoDB, mLab',
 					url: 'http://promotocrossapi.com',
 					githubURL: 'https://github.com/EGWeeks/promotocrossapi'
 				},
 				{
 					title: 'Backwoods Contact',
-					body: 'Backwoods is an outdoor sporting classifieds app that I built for my love of getting outside. Backwoods uses JSON Web Tokens for authorization, knex.js to query the Postgres database, express.js for routing, Angular for all the front end funcationality.',
+					body: 'Backwoods is an outdoor sporting classifieds app that I built for my love of getting outside. Backwoods uses JSON Web Tokens for authorization, knex.js to query the Postgres database, express.js for routing. Angular is handling all the front end funcationality with the help of Bootstrap\'s grid system and components.',
 					tech: 'AngularJS, Google Maps API, PostgreSQL, Express.js',
 					url: 'https://backwoodscontact.xyz/',
 					githubURL: 'https://github.com/EGWeeks/tutorFront'
