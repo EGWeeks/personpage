@@ -10,7 +10,7 @@ angular.module('projectsSrc', [])
 				{
 					title: 'Pro Motocross API',
 					body: 'Built following a RESTful design pattern Express.js is serving up the latest lap times from the Lucas oil pro motocross series. Storing all data in a MongoDB hosted on mLab for easy JSON returns. The build inspiration came from watching the races every weekend and the announcers talking about how riders pace develop over the course of the race and I thought, "I need to graph that out". Come to find out there is no public motocross API, here is the first one.',
-					tech: 'Node.js, Heroku, MongoDB, mLab',
+					tech: 'Node.js, AWS EC2, MongoDB, mLab',
 					url: 'http://promotocrossapi.com',
 					githubURL: 'https://github.com/EGWeeks/promotocrossapi'
 				},
@@ -28,7 +28,7 @@ angular.module('projectsSrc', [])
 			return [
 				{
 					title: 'PDF parser into DB',
-					body: 'The parser was the first step of creating the motocross API because the organization that host the data only offers it in PDFs. Using NPM, ES6, and Promises it is downloading all the PDFs, parsing them to JSON format, and then pushing to my hosted MongoDB.',
+					body: 'The parser was the first step of creating the motocross API because the organization that host the data only offers it in PDFs. Using NPM, ES6, and Promises it is downloading all the PDFs, parsing them to JSON format, and then pushing to my hosted MongoDB. Check out the beauty of Promises on my github.',
 					tech: 'ES6, Node.js, NPM',
 					url: 'https://github.com/EGWeeks/AMAPDFtoJSONParser',
 					githubURL: 'https://github.com/EGWeeks/AMAPDFtoJSONParser'
