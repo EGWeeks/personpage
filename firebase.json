@@ -4,5 +4,9 @@
   "ignore": [
     "firebase.json",
     "**/.*"
-  ]
+  ],
+  "rewrites": [ {
+  	"source": "**",
+  	"destination": "/index.html"
+	} ]
 }

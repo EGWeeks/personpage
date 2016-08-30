@@ -2,7 +2,7 @@
 
 var portConfig = angular.module('portConfig',['ngRoute', 'angular-loading-bar']);
 
-portConfig.config(['$httpProvider', '$routeProvider', 'cfpLoadingBarProvider', function($httpProvider, $routeProvider, cfpLoadingBarProvider) {
+portConfig.config(['$routeProvider', '$locationProvider', 'cfpLoadingBarProvider', function($routeProvider, $locationProvider, cfpLoadingBarProvider) {
 
   cfpLoadingBarProvider.includeSpinner = true;
   cfpLoadingBarProvider.includeBar = true;
@@ -20,5 +20,7 @@ portConfig.config(['$httpProvider', '$routeProvider', 'cfpLoadingBarProvider', f
 			controller: 'projectsCtrl',
 			controllerAs: 'PC'
 		});
+		
+	$locationProvider.html5Mode(true);
 
 }]);
