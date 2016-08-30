@@ -1,7 +1,7 @@
 # Recent Projects Portfolio
 
 ##Tech
-	*AngularJS
-	*Bootstrap
-	*NPM
-	*Firebase Hosting
+	* AngularJS
+	* Bootstrap
+	* NPM
+	* Firebase Hosting
