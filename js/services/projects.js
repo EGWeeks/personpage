@@ -1,3 +1,5 @@
+// just a dumbie service no AJAX here
+// 
 'use strict';
 
 angular.module('projectsSrc', [])
@@ -9,7 +11,7 @@ angular.module('projectsSrc', [])
 			return [
 				{
 					title: 'Pro Motocross API',
-					body: 'Built following a RESTful design pattern Express.js is serving up the latest lap times from the Lucas oil pro motocross series. Storing all data in a MongoDB hosted on mLab for easy JSON returns. The build inspiration came from watching the races every weekend and the announcers talking about how riders pace develop over the course of the race and I thought, "I need to graph that out". Come to find out there is no public motocross API, here is the first one.',
+					body: 'Built following a RESTful design pattern Express.js is serving up the latest lap times from the Lucas oil pro motocross series. Storing all data in a MongoDB hosted on mLab for quick JSON responses. The build inspiration came from watching the races every weekend and the announcers talking about how riders pace develop over the course of the race and I thought, "I need to graph that out". Come to find out there is no public motocross API, here is the first one.',
 					tech: 'Node.js, AWS EC2, MongoDB, mLab',
 					url: 'http://promotocrossapi.com',
 					githubURL: 'https://github.com/EGWeeks/promotocrossapi'
