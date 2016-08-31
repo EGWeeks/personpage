@@ -1,7 +1,7 @@
 @media (min-width: 991px) {
 	.hero-text {
 		position: absolute;
-		top: 8rem;
+		top: 10rem;
 	}
 }
 
@@ -15,7 +15,7 @@
 @media (min-width: 768px) and (max-width: 990px) {
 	.hero-text {
 		position: absolute;
-		top: 0.2rem;
+		top: 2.5rem;
 	}
 }
 
