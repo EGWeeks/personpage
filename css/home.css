@@ -26,11 +26,13 @@ h2:hover {
 /**************
  Columns height
 **************/
+/*
+	display: flex; will overflow rows in safari;
+*/
 .row {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
   flex-wrap: wrap;
 }
 
